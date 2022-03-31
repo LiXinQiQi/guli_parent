@@ -24,6 +24,7 @@ import java.util.List;
  * @since 2022-03-18
  */
 @Api(description = "讲师管理")
+@CrossOrigin
 @RestController
 @RequestMapping("/eduservice/eduteacher")
 public class EduTeacherController {
@@ -122,6 +123,12 @@ public class EduTeacherController {
         }else{
             return R.error();
         }
+    }
+
+    @ApiOperation(value = "根据id获取讲师")
+    @GetMapping("getTeacherById/{id}")
+    public R getTeacherById(@PathVariable Long id) {
+        return R.ok().data("list", eduTeacherService.getById(id));
     }
 }
 

@@ -8,6 +8,7 @@
         <module>service/untitled</module>
         <module>common</module>
         <module>common/service_base</module>
+        <module>service_wxlogin</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

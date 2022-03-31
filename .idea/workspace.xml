@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c25a6d11-3008-4a30-ab02-c7b4740fcc57" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/atguigu/commonutils/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/atguigu/commonutils/utils/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/atguigu/commonutils/utils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/atguigu/commonutils/vo/CourseWebVoForOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/atguigu/commonutils/vo/UcenterMemberForOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/atguigu/baseservice/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_cms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atguigu/cmsservice/CmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atguigu/cmsservice/api/CrmBannerApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atguigu/cmsservice/entity/CrmBanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atguigu/cmsservice/mapper/CrmBannerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atguigu/cmsservice/mapper/xml/CrmBannerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atguigu/cmsservice/service/CrmBannerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atguigu/cmsservice/service/impl/CrmBannerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_cms/src/test/java/com/atguigu/cmsservice/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/api/CourseApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/api/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/api/TeacherApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/client/OrderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/client/VodClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/client/VodFileDegradeFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduChapterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduSubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduVideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/EduChapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/EduCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/EduCourseDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/EduSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/EduVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/ExcelSubjectData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/vo/ChapterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/vo/CourseInfoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/vo/CoursePublishVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/vo/CourseQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/vo/CourseQueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/vo/CourseWebVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/vo/OneSubjectVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/vo/TwoSubjectVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/entity/vo/VideoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/listener/SubjectExcelListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/mapper/EduChapterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/mapper/EduCourseDescriptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/mapper/EduCourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/mapper/EduSubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/mapper/EduVideoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/mapper/xml/EduChapterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/mapper/xml/EduCourseDescriptionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/mapper/xml/EduCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/mapper/xml/EduSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/mapper/xml/EduVideoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/EduChapterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/EduCourseDescriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/EduCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/EduSubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/EduVideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/impl/EduChapterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/impl/EduCourseDescriptionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/impl/EduCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/impl/EduSubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/impl/EduVideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/test/java/com/atguigu/eduservice/excel/DemoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/test/java/com/atguigu/eduservice/excel/ExcelListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_edu/src/test/java/com/atguigu/eduservice/excel/ExcelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/client/EduClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/client/UcenterClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/controller/TOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/controller/TPayLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/entity/TOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/entity/TPayLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/mapper/TOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/mapper/TPayLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/mapper/xml/TOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/mapper/xml/TPayLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/service/TOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/service/TPayLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/service/impl/TOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/service/impl/TPayLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/utils/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/utils/OrderNoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_order/src/test/java/com/atguigu/orderservice/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_oss/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_oss/src/main/java/com/atguigu/ossservice/OssApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_oss/src/main/java/com/atguigu/ossservice/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_oss/src/main/java/com/atguigu/ossservice/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_oss/src/main/java/com/atguigu/ossservice/utils/ConstantPropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_oss/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_sms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atguigu/smsservice/ServiceSmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atguigu/smsservice/controller/SmsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atguigu/smsservice/service/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/main/java/com/atguigu/ucenterservice/ServiceUcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/main/java/com/atguigu/ucenterservice/controller/UcenterMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/main/java/com/atguigu/ucenterservice/entity/UcenterMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/main/java/com/atguigu/ucenterservice/entity/vo/LoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/main/java/com/atguigu/ucenterservice/entity/vo/RegisterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/main/java/com/atguigu/ucenterservice/mapper/UcenterMemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/main/java/com/atguigu/ucenterservice/mapper/xml/UcenterMemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/main/java/com/atguigu/ucenterservice/service/UcenterMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/main/java/com/atguigu/ucenterservice/service/impl/UcenterMemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_ucenter/src/test/java/com/atguigu/ucenterservice/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/atguigu/vodservice/VodApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/atguigu/vodservice/controller/VideoAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/java/com/atguigu/vodservice/utils/AliyunVodSDKUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_vod/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/main/java/com/atguigu/wxlogin/WxLoginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/main/java/com/atguigu/wxlogin/controller/UcenterMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/main/java/com/atguigu/wxlogin/entity/UcenterMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/main/java/com/atguigu/wxlogin/mapper/UcenterMemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/main/java/com/atguigu/wxlogin/mapper/xml/UcenterMemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/main/java/com/atguigu/wxlogin/service/UcenterMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/main/java/com/atguigu/wxlogin/service/impl/UcenterMemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/main/java/com/atguigu/wxlogin/utils/ConstantPropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/main/java/com/atguigu/wxlogin/utils/HttpClientUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_wxlogin/src/test/java/com/atguigu/wxlogin/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/EduApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/EduApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/controller/EduTeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/EduTeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/EduTeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/impl/EduTeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/impl/EduTeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/test/java/com/atguigu/eduservice/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/test/java/com/atguigu/eduservice/CodeGenerator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/Library/Java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="/Library/Java/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="26YUj4c4ooVGj7Lc4Fgetcle8cM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/utils" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service/service_order/src/main/java/com/atguigu/orderservice/utils" />
+      <recent name="$PROJECT_DIR$/service/service_wxlogin/src/main/java" />
+      <recent name="$PROJECT_DIR$/service/service_wxlogin/src/main/resources" />
+      <recent name="$PROJECT_DIR$/common/common_utils/src/main/java/com/atguigu/commonutils/utils" />
+      <recent name="$PROJECT_DIR$/common/service_base/src/main/java/com/atguigu/baseservice/config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.commonutils.vo" />
+      <recent name="com.atguigu.orderservice" />
+      <recent name="com.atguigu.wxlogin" />
+      <recent name="com.atguigu.ucenterservice" />
+      <recent name="com.atguigu.cmsservice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EduApplication">
+    <configuration name="CodeGenerator.run (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.orderservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.orderservice" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.orderservice.CodeGenerator" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service_cms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.cmsservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cmsservice.CmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service_edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.eduservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.eduservice.EduApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service_order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.orderservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.orderservice.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_oss" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.ossservice.OssApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.smsservice.ServiceSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceUcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service_ucenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.ucenterservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.ucenterservice.ServiceUcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_vod" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.vodservice.VodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WxloginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_wxlogin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.wxlogin.WxloginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EduApplication" />
+        <item itemvalue="Spring Boot.OrderServiceApplication" />
+        <item itemvalue="Spring Boot.ServiceUcApplication" />
+        <item itemvalue="Spring Boot.CmsApplication" />
+        <item itemvalue="JUnit.CodeGenerator.run (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c25a6d11-3008-4a30-ab02-c7b4740fcc57" name="Changes" comment="" />
+      <created>1647600144544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647600144544</updated>
+      <workItem from="1647600145822" duration="392000" />
+      <workItem from="1647600541883" duration="297000" />
+      <workItem from="1647600860472" duration="358000" />
+      <workItem from="1647601221566" duration="501000" />
+      <workItem from="1647601726359" duration="145000" />
+      <workItem from="1647601874251" duration="2662000" />
+      <workItem from="1647604656493" duration="84000" />
+      <workItem from="1647604743407" duration="147000" />
+      <workItem from="1647604893857" duration="2461000" />
+      <workItem from="1647658204685" duration="15000" />
+      <workItem from="1647658239098" duration="47000" />
+      <workItem from="1647658288912" duration="112000" />
+      <workItem from="1647658404831" duration="14610000" />
+      <workItem from="1647851401024" duration="50153000" />
+      <workItem from="1648128520133" duration="86000" />
+      <workItem from="1648128609065" duration="10698000" />
+      <workItem from="1648297234036" duration="2182000" />
+      <workItem from="1648380921418" duration="57660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/service/impl/EduCourseServiceImpl.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/service_vod/src/main/java/com/atguigu/vodservice/controller/VideoAdminController.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/service/service_edu/src/main/java/com/atguigu/eduservice/api/TeacherApiController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

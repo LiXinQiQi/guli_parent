@@ -12,6 +12,13 @@
         <module>service_edu</module>
         <module>service_edu</module>
         <module>service_edu</module>
+        <module>service_oss</module>
+        <module>service_vod</module>
+        <module>service_cms</module>
+        <module>service_sms</module>
+        <module>service_ucenter</module>
+        <module>service_wxlogin</module>
+        <module>service_order</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
 
@@ -134,4 +141,19 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+    </build>
+
 </project>
