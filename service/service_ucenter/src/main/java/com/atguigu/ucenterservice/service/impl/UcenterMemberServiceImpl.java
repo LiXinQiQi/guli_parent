@@ -86,4 +86,11 @@ public class UcenterMemberServiceImpl extends ServiceImpl<UcenterMemberMapper, U
         //生成token字符串
         return JwtUtils.getJwtToken(ucenterMember.getId(), ucenterMember.getNickname());
     }
+
+    //统计注册人数远程调用
+    @Override
+    public Integer countRegister(String day) {
+        Integer count = baseMapper.countRegister(day);
+        return count;
+    }
 }

@@ -66,5 +66,12 @@ public class UcenterMemberController {
         return ucenterMemberForOrder;
     }
 
+    @ApiOperation(value = "统计注册人数远程调用")
+    @GetMapping("countRegister/{day}")
+    public R countRegister(@PathVariable("day") String day){
+        Integer count = ucenterMemberService.countRegister(day);
+        return R.ok().data("countRegister",count);
+    }
+
 }
 

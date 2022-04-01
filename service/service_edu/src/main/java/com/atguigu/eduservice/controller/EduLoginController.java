@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
  * @Date: 2022/03/21
  */
 @Api(description="模拟登陆")
-@CrossOrigin
+//@CrossOrigin
 @RestController
 @RequestMapping("/eduuser")
 public class EduLoginController {
